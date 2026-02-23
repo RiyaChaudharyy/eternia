@@ -60,7 +60,7 @@ const BeforeAfterSlider = () => {
           <img
             src={imgAfter}
             alt="After renovation"
-            className="absolute inset-0 w-full h-full object-cover pointer-events-none"
+            className="absolute inset-0 w-full h-full pointer-events-none"
           />
           <span className="absolute top-6 right-6 bg-black/50 backdrop-blur-sm text-white px-3 py-1 text-xs tracking-wider rounded-sm z-0">
             AFTER
@@ -73,7 +73,7 @@ const BeforeAfterSlider = () => {
             <img
               src={imgBefore}
               alt="Before renovation"
-              className="absolute inset-0 w-full h-full object-cover"
+              className="absolute inset-0 w-full h-full"
             />
             <span className="absolute top-6 left-6 bg-black/50 backdrop-blur-sm text-white px-3 py-1 text-xs tracking-wider rounded-sm">
               BEFORE
